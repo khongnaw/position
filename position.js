@@ -1,30 +1,19 @@
 
 /**
+ * Implemented the position function as described in:
+ * https://blog.svpino.com/2015/05/24/programming-challenge-the-position-of-the-element
  * Created by sora1234 on 9/22/2015.
  */
-/*
-function position(target,list){
-  var i = 0;
-  for(;i<list.length;i++){
-    if(list[i] === target) return i;
 
-    if( target < list[i]){
-      return i;
-    }
-  }
-  return i
+/**
+ * Find the position in the array of nums where num should be
+ * inserted.
+ * @param nums The array of number.
+ * @param num The number to be inserted.
+ * @return The position where num should be inserted.
+ */
 
-}
-*/
-/*
-console.log(position(5,[1, 3, 5, 6]));
-console.log(position(2,[1, 3, 5, 6]));
-console.log(position(7,[1, 3, 5, 6]));
-console.log(position(0,[1, 3, 5, 6]));
-*/
-
-// Professor Johnson's solution
-
+/*exported position*/
 function position(num,nums){
   var cursor = 0;
   while((nums[cursor] <= num) && (cursor < nums.length))
@@ -37,7 +26,3 @@ function position(num,nums){
   return cursor;
 }
 
-console.log(position(5,[1, 3, 5, 6]));
-console.log(position(2,[1, 3, 5, 6]));
-console.log(position(7,[1, 3, 5, 6]));
-console.log(position(0,[1, 3, 5, 6]));
