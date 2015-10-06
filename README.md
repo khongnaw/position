@@ -29,5 +29,8 @@ Here is an example function call:
 console.log(position(2,[1,2,3,4]));
 ```
 
+# Screenshot of the Jasmine testing page
+![screenshot](https://github.com/khongnaw/position/blob/master/doc/Jasmine-test.JPG)
+
 # Credit
 [The position of the element](https://www.shiftedup.com/2015/05/24/programming-challenge-the-position-of-the-element)
