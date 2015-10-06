@@ -1,36 +1,13 @@
 # Overview
-This repository contains position function that returns an index where a given number should be within a given number array.
+This system implements a simple function takine from this [coding challenge](https://www.shiftedup.com/2015/05/24/programming-challenge-the-position-of-the-element)
 
-# Installation
-For Jasmin testing include the following script in your HTML file:
-```
- <title>Jasmine Spec Runner v2.2.0</title>
+This system implements Jasmine tests. To see the tests, display the SpecRunner.html file in a browser. Here is an example of successfully invoked tests:
 
-  <link rel="shortcut icon" type="image/png" href="lib/jasmine-2.2.0/jasmine_favicon.png">
-  <link rel="stylesheet" href="lib/jasmine-2.2.0/jasmine.css">
-
-  <script src="lib/jasmine-2.2.0/jasmine.js"></script>
-  <script src="lib/jasmine-2.2.0/jasmine-html.js"></script>
-  <script src="lib/jasmine-2.2.0/boot.js"></script>
-
-  <script src="position.js"></script>
-  <script src="spec/PositionSpec.js"></script>
-```
-
-For regular use include the following script:
-```
-<script src="position.js"></script>
-
-```
+![screenshot](https://raw.githubusercontent.com/khongnaw/position/master/doc/Jasmine-test.png)
 
 # Usage 
-Here is an example function call:
-```
-console.log(position(2,[1,2,3,4]));
-```
-
-# Screenshot of the Jasmine testing page
-![screenshot](https://github.com/khongnaw/position/blob/master/doc/Jasmine-test.JPG)
+Simply download the file and invoke the position() function. See the test code for detail.
 
 # Credit
-[The position of the element](https://www.shiftedup.com/2015/05/24/programming-challenge-the-position-of-the-element)
+Thanks to [Jasmine](http://jasmine.github.io/) for test framework.
+
