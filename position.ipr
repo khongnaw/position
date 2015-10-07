@@ -133,9 +133,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/position.iml" filepath="$PROJECT_DIR$/position.iml" />
-    </modules>
+    <modules />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" assert-keyword="true" jdk-15="true">
     <output url="file://$PROJECT_DIR$/out" />
